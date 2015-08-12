@@ -1,0 +1,25 @@
+{
+    "repositories": [
+        {
+            "packagist": false,
+            "type": "package",
+            "package": {
+                "name": "libphutil",
+                "dist": {
+                    "url": "https://github.com/phacility/libphutil/archive/master.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/phacility/libphutil.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "version": "1.0"
+            }
+        }
+    ],
+    "require": {
+        "libphutil": "1.0",
+        "symfony/yaml": "~2"
+    }
+}
